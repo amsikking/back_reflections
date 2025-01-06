@@ -1,0 +1,75 @@
+<!-- comment -->
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/prism.css">
+    <script src="javascript/python-highlighting/prism.js"></script>
+    <script async src="javascript/Minimal-MathJax/MathJax.js?config=TeX-AMS_CHTML"></script>
+    <script src="javascript/update_figures.js"></script>
+    <script src="javascript/reference_list/reference_list.js"></script>
+	<title>amsikking: back reflections</title>
+  </head>
+
+  <body>
+  	<header>
+	  <nav>
+	    <ul>
+		  <li><h1 style="margin-top: 0rem; margin-left: 1rem; margin-right: 1rem">amsikking:</h1></li>
+		  <li><a href="https://amsikking.github.io/">Homepage</a></li>
+		  <li><a href="https://github.com/amsikking/back_reflections">GitHub</a></li>
+	    </ul>
+	  </nav>
+	</header>
+
+	<main>
+	  <h1>Back reflections</h1>
+	  <p>Examples of back reflections from aligning optics.</p>
+	  <section>
+		<h2>Contents</h2>
+		<ul>
+		  <li><a href="./objective_15cm_from_back.html">Objective 15cm from back</a></li>
+		  <li><a href="./objective_60cm_from_back.html">Objective 60cm from back</a></li>
+		  <li><a href="./objective_20cm_from_front.html">Objective 20cm from front</a></li>
+		  <li><a href="./tube_lens_20cm_away.html">Tube lens 20cm away</a></li>
+		</ul>
+	  
+		<h2>Overview</h2>
+		<p>
+		When building an optical instrument (e.g. a microscope) we often need to place optics 
+		(e.g. lenses) in a very specific configuration on an optical table. For example, a lens has an
+		<strong>optical axis</strong> and we often want to place multiple lenses on the same axis.
+		</p>
+		<p>
+		So where is the optical axis? Can we find the optical axis using the <strong>back reflections</strong>
+		from a laser beam? The examples shown here should help with these questions. Getting good at optical
+		alignment is an essential skill for building optical instruments that perform at the limit of the optics, 
+		rather than the limit of the builder...
+		</p>
+
+		<h2>Setup</h2>
+		<p>
+		Here we use two mirrors (not shown) to steer a collimated ~1mm 532nm laser beam onto various optics
+		and look at the back reflections with a mobile viewing screen (an alignment card with a ~1mm hole):
+		</p>
+
+		<figure>
+		  <img src="figures/setup_objective_at_15cm.jpg" alt="setup_objective_at_15cm.jpg">
+		  <figcaption>
+		  An objective on an optical table with a viewing screen at ~15cm. A collimated ~1mm 532nm laser 
+		  (not visible here) has been aligned to the optical axis of the objective with some steering mirrors.
+		  </figcaption>
+		</figure>
+		
+		<p>
+		<strong>Note: </strong>Another approach is to have a fixed optical axis (e.g. defined by a fixed laser 
+		beam) and to place an optic onto the axis with an adjustable mount. This is typical when building systems 
+		with multiple optics that must share the same axis.
+		</p>
+	  </section>
+	</main>
+  </body>
+</html>
